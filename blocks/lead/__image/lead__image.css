@@ -1,0 +1,15 @@
+.lead__image {
+	width: 100%;
+	max-width: 984px;
+	padding-bottom: calc(555/984*100%);
+	background-image: url("../../../images/lead/lead.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.lead__image {
+	padding-bottom: calc(211/320*100%);
+	background-image: url("../../../images/lead/lead_320.png");
+}

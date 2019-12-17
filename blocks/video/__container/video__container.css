@@ -1,0 +1,17 @@
+.video__container {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .video__container {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .video__container {
+    padding: 0 16px;
+  }
+}

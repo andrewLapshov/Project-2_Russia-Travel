@@ -1,0 +1,33 @@
+@import url("../../fonts/fonts.css");
+
+.content-subtitle {
+  font-family: Inter;
+  color: white;
+  max-width: 640px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 auto 72px;
+}
+
+@media screen and (max-width: 768px) {
+  .content-subtitle {
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0 auto 56px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-subtitle {
+    margin: 0 auto 48px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .content-subtitle:first-of-type {
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,13 @@
+.comments__photo {
+	width: 97px;
+	height: 97px;
+	border-radius: 100px;
+	margin-bottom: 42px;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+	.comments__photo {
+		margin-bottom: 16px;
+	}
+}

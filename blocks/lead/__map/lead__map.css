@@ -1,0 +1,6 @@
+.lead__map {
+  position: absolute;
+  top: calc(126.88/555*100%);
+  left: calc(23.27/984*100%);
+  width: calc(937/984*100%);
+}
